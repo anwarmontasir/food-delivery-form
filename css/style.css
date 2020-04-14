@@ -29,15 +29,15 @@ a {text-decoration: none;}
     text-align: center;
 }
 #logo {
-    font-size: 33px;
+    font-size: 27px;
     padding: .5rem 0 1rem;
     font-family: bookman-jf-pro, serif;
     vertical-align: top; 
 }
 #logo img {
-    width: 54px;
+    width: 44px;
     position: relative;
-    top: 6px;
+    top: 4px;
 }
 nav ul {
     margin: 1.5rem 1rem .5rem 1rem; 
