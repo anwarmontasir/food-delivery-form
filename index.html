@@ -12,7 +12,7 @@
 <body>
     <div id="mobile-container">
         <header>
-            <div id="logo">Restaurant name</div>
+            <div id="logo"><img src="images/taco-emoji.png" alt="taco"> Tacos By Roscoe</div>
             <nav>
                 <ul>
                     <li class="current"><a href="index.html">Delivery</a></li>
@@ -42,7 +42,13 @@
                 <input type="text" id="address2" name="address2" class="no-hint">
                 <label for="zip">Zip Code <span class="star">*</span></label>
                 <input type="text" id="zip" name="zip" required>
-                <p class="hint">Enter Zip Code for city and state.</p>
+                <p class="hint">City and state will be looked up from Zip Code.</p>
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone">
+                <p class="hint">No phone? Include alternate contact below.</p>
+                <label for="delivery-instructions">Delivery Instructions</label>
+                <textarea id="delivery-instructions" name="delivery-instructions"></textarea>
+                <button type="submit">Continue to Billing</button>
             </form>
         </main>
     </div>
