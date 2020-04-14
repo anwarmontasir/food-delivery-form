@@ -9,10 +9,13 @@ h1, h2, h3 {font-weight: 700; line-height: 1.1; margin-bottom: 1rem;}
 h1 {font-size: 27px;}
 h2 {font-size: 24px;}
 h3 {font-size: 21px;}
-p {line-height: 1.4;}
+p {
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
 
 #mobile-container {
-    background: #fff;
+    background: #f9f4f0;
     width: 375px;
     margin: 0 auto;
     min-height: 100vh;
@@ -36,6 +39,7 @@ nav ul li {
     border-right: 1px solid #354;
     padding: .5rem;
     text-align: center;
+    background: #fff;
 }
 nav ul li.current {
     background: #354;
@@ -47,7 +51,6 @@ main {padding: 1rem;}
 #summary {
     display: flex;
     align-items: center;
-    font-size: 16px;
     margin-bottom: 1.5rem;
     font-weight: 300;
 }
@@ -55,7 +58,9 @@ main {padding: 1rem;}
     margin-right: 12px;
     color: #465;
 }
+#summary p {margin-bottom: 0;}
 #summary p:last-child {font-size: 21px;}
+
 label {
     display: block; 
     margin-bottom: 6px;
@@ -64,6 +69,13 @@ input {
     display: block; 
     width: 100%; 
     padding: 8px; 
-    margin-bottom: .75rem; 
-    font-size: 16px;
+    font-size: 18px;
+    color: #333;
 }
+.star {font-size: 24px;}
+.hint {
+    font-weight: 300;
+    color: #666;
+    font-size: 15px;
+}
+.no-hint {margin-bottom: 1rem;}

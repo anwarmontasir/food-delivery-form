@@ -25,18 +25,24 @@
             <div id="summary">
                 <i class="fas fa-utensils fa-3x"></i>
                 <div id="summary-text">
-                    <p>Your order for 7pm, April 13, 2020</p>
+                    <p>Delivery by 7pm, April 13, 2020</p>
                     <p>6 items, $31.44</p>
                 </div>
             </div>
             <form>
                 <h1>Delivery Information</h1>
-                <label for="name">Name *</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email *</label>
+                <label for="name">Name <span class="star">*</span></label>
+                <input type="text" id="name" name="name" required class="no-hint">
+                <label for="email">Email <span class="star">*</span></label>
                 <input type="email" id="email" name="email" required>
-                <label for="address1">Address *</label>
-                <input type="text" id="address1" name="address1" required>
+                <p class="hint">Receipt will be sent to this address.</p>
+                <label for="address1">Address <span class="star">*</span></label>
+                <input type="text" id="address1" name="address1" required class="no-hint">
+                <label for="address2">Apartment/Office Number</label>
+                <input type="text" id="address2" name="address2" class="no-hint">
+                <label for="zip">Zip Code <span class="star">*</span></label>
+                <input type="text" id="zip" name="zip" required>
+                <p class="hint">Enter Zip Code for city and state.</p>
             </form>
         </main>
     </div>
