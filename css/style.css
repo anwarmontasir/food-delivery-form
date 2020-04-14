@@ -13,6 +13,7 @@ p {
     line-height: 1.4;
     margin-bottom: .75rem;
 }
+a {text-decoration: none;}
 
 #mobile-container {
     background: #f9f4f0;
@@ -41,11 +42,10 @@ nav ul li {
     text-align: center;
     background: #fff;
 }
-nav ul li.current {
-    background: #354;
-    color: #fff;
-}
+nav ul li.current {background: #354;}
 nav ul li:last-child {border-right: none;}
+nav ul li a {color: #354;}
+nav ul li.current a {color: #fff;}
 
 main {padding: 1rem;}
 #summary {
