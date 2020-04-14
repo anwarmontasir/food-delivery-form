@@ -30,10 +30,15 @@ a {text-decoration: none;}
 }
 #logo {
     font-size: 33px;
-    padding: .75rem 0 1rem;
-    font-family: bookman-jf-pro, serif; 
+    padding: .5rem 0 1rem;
+    font-family: bookman-jf-pro, serif;
+    vertical-align: top; 
 }
-#logo img {width: 54px;}
+#logo img {
+    width: 54px;
+    position: relative;
+    top: 6px;
+}
 nav ul {
     margin: 1rem 1rem .5rem 1rem; 
     display: flex;
