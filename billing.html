@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tacos By Roscoe is not a real restaurant, as far as I know. This is a demo by Anwar Montasir for a Team Treehouse lesson on accessible forms.">
+    <title>Billing Information</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wdu3mtc.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b930a57175.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="mobile-container">
+        <header>
+            <div id="logo">
+                <img src="images/taco-emoji.png" alt="taco"> 
+                <span id="logo-text">Tacos By Roscoe</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Delivery</a></li>
+                    <li class="current"><a href="billing.html">Billing</a></li>
+                    <li><a href="confirm.html">Confirm</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="summary">
+                <i class="fas fa-utensils fa-3x"></i>
+                <div id="summary-text">
+                    <p>Delivery by 7pm, April 13, 2020</p>
+                    <p>6 items, $31.44</p>
+                </div>
+            </div>
+            <form action="billing.html">
+                <fieldset>
+                    <legend>Billing Address</legend>
+                    <input type="checkbox" id="same-address" name="same-address" checked>
+                    <label for="same-address" class="inline-label">Same billing and delivery address.</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Payment Information</legend>
+                    
+                </fieldset>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

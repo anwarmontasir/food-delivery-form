@@ -33,26 +33,28 @@
                     <p>6 items, $31.44</p>
                 </div>
             </div>
-            <form>
-                <h1>Delivery Information</h1>
-                <p id="note"><span class="star">*</span> required field</p>
-                <label for="name">Name <span class="star">*</span></label>
-                <input type="text" id="name" name="name" required class="no-hint">
-                <label for="email">Email <span class="star">*</span></label>
-                <input type="email" id="email" name="email" required>
-                <p class="hint">Receipt will be sent to this address.</p>
-                <label for="address1">Address <span class="star">*</span></label>
-                <input type="text" id="address1" name="address1" required class="no-hint">
-                <label for="address2">Apartment/Office Number</label>
-                <input type="text" id="address2" name="address2" class="no-hint">
-                <label for="zip">Zip Code <span class="star">*</span></label>
-                <input type="text" id="zip" name="zip" required>
-                <p class="hint">City and state will be looked up from Zip Code.</p>
-                <label for="phone">Phone</label>
-                <input type="tel" id="phone" name="phone">
-                <p class="hint">No phone? Include alternate contact below.</p>
-                <label for="delivery-instructions">Delivery Instructions</label>
-                <textarea id="delivery-instructions" name="delivery-instructions"></textarea>
+            <form action="billing.html">
+                <fieldset>
+                    <legend>Delivery Information</legend>
+                    <p id="note"><span class="star">*</span> required field</p>
+                    <label for="name">Name<span class="star">*</span></label>
+                    <input type="text" id="name" name="name" required class="no-hint">
+                    <label for="email">Email<span class="star">*</span></label>
+                    <input type="email" id="email" name="email" required>
+                    <p class="hint">Receipt will be sent to this address.</p>
+                    <label for="address1">Address<span class="star">*</span></label>
+                    <input type="text" id="address1" name="address1" required class="no-hint">
+                    <label for="address2">Apartment/Office Number</label>
+                    <input type="text" id="address2" name="address2" class="no-hint">
+                    <label for="zip">Zip Code<span class="star">*</span></label>
+                    <input type="text" id="zip" name="zip" required>
+                    <p class="hint">City and state will be looked up from Zip Code.</p>
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone">
+                    <p class="hint">No phone? Include alternate contact below.</p>
+                    <label for="delivery-instructions">Delivery Instructions</label>
+                    <textarea id="delivery-instructions" name="delivery-instructions"></textarea>
+                </fieldset>
                 <button type="submit">Continue to Billing</button>
             </form>
         </main>
