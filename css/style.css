@@ -120,3 +120,11 @@ input[type="checkbox"] {
 .two-fields {display: flex;}
 .two-fields div {width: 50%;}
 .exp {width: 125px;}
+.sc {
+    background-image: url(../images/cvv.png);
+    background-repeat: no-repeat;
+    background-size: 44px 27px;
+    border: 1px solid #ccc;
+    height: 45px;
+    background-position: top 50% right 5%;
+}
