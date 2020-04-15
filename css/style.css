@@ -5,13 +5,13 @@ body {
     background: #ccc;
     color: #354;
 }
-h1, h2, h3, legend {font-weight: 700; line-height: 1.1; margin-bottom: 1rem;}
-h1, legend {font-size: 27px;}
-h2 {font-size: 24px;}
-h3 {font-size: 21px;}
+h1, h2, legend {font-weight: 700; line-height: 1.1}
+h1, legend {font-size: 27px; margin-bottom: 1rem;}
+h2 {font-size: 22px; margin-bottom: .25rem;}
 p {
     line-height: 1.4;
     margin-bottom: 1rem;
+    font-weight: 300;
 }
 a {text-decoration: none;}
 
@@ -69,7 +69,7 @@ main {padding: 1rem;}
 #summary p {margin-bottom: 0;}
 #summary p:last-child {font-size: 21px;}
 
-fieldset {margin-bottom: 2rem;}
+fieldset, section {margin-bottom: 2rem;}
 label {
     display: block; 
     margin-bottom: 5px;
@@ -99,6 +99,7 @@ button {
     padding: 12px 0;
     font-size: 18px;
     border: none;
+    border-radius: 8px;
 }
 input[type="checkbox"] {
     width: auto;
