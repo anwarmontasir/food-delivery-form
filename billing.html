@@ -40,9 +40,30 @@
                     <label for="same-address" class="inline-label">Same billing and delivery address.</label>
                 </fieldset>
                 <fieldset>
-                    <legend>Payment Information</legend>
-                    
+                    <legend><i class="fas fa-lock"></i> Payment Information</legend>
+                    <label for="name-on-card">Name on Card</label>
+                    <input type="text" id="name-on-card" name="name-on-card" required class="no-hint">
+                    <div id="card-number-label">
+                        <label for="card-number">Card Number</label>
+                        <div id="card-icons">
+                            <img src="https://i.ya-webdesign.com/images/visa-card-png-10.png" alt="Visa logo">
+                            <img src="https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/zcxtywwtavspe1uiizox" alt="Mastercard logo">
+                            <img src="https://logodix.com/logo/954892.png" alt="American Express logo">
+                        </div>
+                    </div>
+                    <input type="text" id="card-number" name="card-number" required class="no-hint">
+                    <div class="two-fields">
+                        <div class="left-field">
+                            <label for="expiration-date">Expiration Date</label>
+                            <input type="text" id="expiration-date" name="expiration-date" required class="no-hint exp" placeholder="MM / YY">
+                        </div> 
+                        <div class="right-field">
+                            <label for="security-code">Security Code</label>
+                            <input type="text" id="security-code" name="security-code" required class="no-hint sc">
+                        </div> 
+                    </div>  
                 </fieldset>
+                <button type="submit">Continue to Review</button>
             </form>
         </main>
     </div>

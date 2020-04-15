@@ -29,15 +29,15 @@ a {text-decoration: none;}
     text-align: center;
 }
 #logo {
-    font-size: 27px;
-    padding: .5rem 0 1rem;
-    font-family: bookman-jf-pro, serif;
+    font-size: 32px;
+    padding: .75rem 0 1rem;
+    font-family: goudy-bookletter-1911, serif; 
     vertical-align: top; 
 }
 #logo img {
-    width: 44px;
+    width: 40px;
     position: relative;
-    top: 4px;
+    top: 2px;
 }
 nav ul {
     margin: 1.5rem 1rem .5rem 1rem; 
@@ -109,3 +109,14 @@ input[type="checkbox"] {
 .inline-label {
     display: inline-block;
 }
+#card-number-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#card-icons img {
+    width: 36px;
+}
+.two-fields {display: flex;}
+.two-fields div {width: 50%;}
+.exp {width: 125px;}
